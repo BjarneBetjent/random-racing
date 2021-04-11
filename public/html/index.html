@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Random Racing</title>
+    <meta name="description" content="Random racing">
+    <meta name="author" content="Olav">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="race-track" id="race-track">
+            <div class="race-lane">
+                <div class="car"></div>
+            </div>
+            <div class="race-lane">
+                <div class="car"></div>
+            </div>
+            <div class="race-lane">
+                <div class="car"></div>
+            </div>
+            <div class="race-lane">
+                <div class="car"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <label for="nmbrCars">Amount of cars:</label>
+            <select name="nmbrCars" id="numbrCars">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected="selected">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <button id="startBtn">Start</button>
+        </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
