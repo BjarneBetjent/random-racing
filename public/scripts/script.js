@@ -17,7 +17,10 @@ document.getElementById("numbrCars").addEventListener("change", (event) =>
         let raceLane = document.createElement("div");
         raceLane.classList.add("race-lane");
         let car = document.createElement("div");
+        let carIcon = document.createElement("img");
+        carIcon.setAttribute("src", "../images/carImg.svg");
         car.classList.add("car");
+        car.appendChild(carIcon);
         raceLane.appendChild(car);
         raceTrack.appendChild(raceLane);
     }
