@@ -8,48 +8,68 @@ html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, ol, ul, li
 }
 
 .container {
+    font-family: 'Roboto', 'Arial', sans-serif;
     margin: auto;
     height: 100vh;
-    background-color: rgb(95, 144, 95);
 }
 
-.race-track {
+.game-window {
+    background: #379683;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80%;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    background: grey;
-    width: 80%;
+}
+
+.track-container {
+    width: 90%;
     margin: 0 auto;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.lane-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;  
+}
+
+.lane-numb {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background: #5cdb95;
+}
+
+.race-track {
+    padding-left: 5px;    
 }
 
 .race-lane {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     height: 70px;
-    border-bottom: 1px solid black;    
+    background: #5cdb95;
 }
 
 .car {
     height: 50px;
     width: 50px;
+    padding-left: 5px;
 }
 
 .controls button {
     font-size: 25px;
 }
 
-.controls {
+.controls-window {
     height: 20%;
-    background: rgb(114, 63, 63);
+    background: #05386b;
     padding: 20px;
-}
-
-.placement {
-    height: 50px;
-    width: 50px;
-    border: 1px solid blue;
 }
