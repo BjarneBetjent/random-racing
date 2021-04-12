@@ -10,7 +10,7 @@ html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, ol, ul, li
 .container {
     margin: auto;
     height: 100vh;
-    background-color: rgb(95, 167, 95);
+    background-color: rgb(95, 144, 95);
 }
 
 .race-track {
@@ -21,23 +21,21 @@ html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, ol, ul, li
     border-left: 1px solid black;
     border-right: 1px solid black;
     background: grey;
-    min-height: 50px;
-    margin: 0 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .race-lane {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     height: 70px;
-    background: blue;
-    border: 1px solid black;
+    border-bottom: 1px solid black;    
 }
 
 .car {
     height: 50px;
     width: 50px;
-    
 }
 
 .controls button {
@@ -48,4 +46,10 @@ html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, ol, ul, li
     height: 20%;
     background: rgb(114, 63, 63);
     padding: 20px;
+}
+
+.placement {
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
 }
