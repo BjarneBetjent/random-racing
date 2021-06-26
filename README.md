@@ -2,4 +2,4 @@
 
 Created to practice css animations.
 
-[Live demo hosted on heroku](https://morning-headland-29569.herokuapp.com)
+[Live demo hosted on heroku](https://random-racing.herokuapp.com/)
